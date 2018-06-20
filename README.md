@@ -22,7 +22,7 @@ for academic use. You can see more examples [here](https://matterport.com/galler
 
 
 
-# Getting Started
+### Getting Started
 * [demo.ipynb](samples/demo.ipynb) Is the easiest way to start. It shows an example of using a model pre-trained on MS COCO to segment objects in your own images.
 It includes code to run object detection and instance segmentation on arbitrary images.
 
@@ -36,13 +36,12 @@ to prepare the training data.
 
 * [inspect_model.ipynb](samples/coco/inspect_model.ipynb) This notebook goes in depth into the steps performed to detect and segment objects. It provides visualizations of every step of the pipeline.
 
-* [inspect_weights.ipynb](samples/coco/inspect_weights.ipynb)
-This notebooks inspects the weights of a trained model and looks for anomalies and odd patterns.
+* [inspect_weights.ipynb](samples/coco/inspect_weights.ipynb) This notebooks inspects the weights of a trained model and looks for anomalies and odd patterns.
 
-* [Eye.ipynb](samples/shapes/Eye.ipynb)  This notebook introduce how to use own Eye dataset to train own model based on coco pre-trained model.
-the dataset build on [VGG Image Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via.html).It is easy to use it
+* [Eye.ipynb](samples/shapes/Eye.ipynb)  This notebook introduce how to use own Eye dataset to train own model based on coco pre-trained model.the dataset build on [VGG Image Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via.html).It is easy to use it(标签自己的数据.( [balloon.py](samples/balloon/balloon.py),千万要看这个代码，要不然作死)
 
-# Step by Step Detection
-To help with debugging and understanding the model, there are 3 notebooks 
-([inspect_data.ipynb](samples/inspect_data.ipynb), [inspect_model.ipynb](samples/inspect_model.ipynb),
-[inspect_weights.ipynb](samples/inspect_weights.ipynb)) that provide a lot of visualizations and allow running the model step by step to inspect the output at each point. Here are a few examples:
+* [coco_weight.h5](https://drive.google.com/open?id=1jHRnKPNFQdZvWqplBljugazWoJrA78l0)  the pre_trained coco mask rcnn model weight can be downloaded from here.(可以从这里下载与训练模型coco_mask.h5)
+
+
+### 其他的
+参考 https://github.com/yejg2017/Mask_RCNN
